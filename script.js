@@ -1,5 +1,3 @@
-// alert("Be Careful, Dont waste time");
-
 let countValue = document.querySelector('#countValue');
 let decrease = document.querySelector('#decrease');
 let increase = document.querySelector('#increase');
@@ -26,5 +24,6 @@ const resetFunction = () => {
 increase.addEventListener('click', increaseFunction);
 decrease.addEventListener('click', decreaseFunction);
 reset.addEventListener('click', resetFunction);
+
 
 
